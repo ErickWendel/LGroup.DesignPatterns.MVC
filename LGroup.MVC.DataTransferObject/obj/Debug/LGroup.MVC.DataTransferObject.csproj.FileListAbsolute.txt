@@ -1,0 +1,5 @@
+C:\Users\Erick Wendel\Desktop\LGroup.MVC\LGroup.MVC.DataTransferObject\bin\Debug\LGroup.MVC.DataTransferObject.dll
+C:\Users\Erick Wendel\Desktop\LGroup.MVC\LGroup.MVC.DataTransferObject\bin\Debug\LGroup.MVC.DataTransferObject.pdb
+C:\Users\Erick Wendel\Desktop\LGroup.MVC\LGroup.MVC.DataTransferObject\obj\Debug\LGroup.MVC.DataTransferObject.csprojResolveAssemblyReference.cache
+C:\Users\Erick Wendel\Desktop\LGroup.MVC\LGroup.MVC.DataTransferObject\obj\Debug\LGroup.MVC.DataTransferObject.dll
+C:\Users\Erick Wendel\Desktop\LGroup.MVC\LGroup.MVC.DataTransferObject\obj\Debug\LGroup.MVC.DataTransferObject.pdb

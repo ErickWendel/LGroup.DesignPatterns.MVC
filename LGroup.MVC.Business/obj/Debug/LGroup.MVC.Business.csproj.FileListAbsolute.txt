@@ -1,0 +1,7 @@
+C:\Users\Erick Wendel\Desktop\LGroup.MVC\LGroup.MVC.Business\bin\Debug\LGroup.MVC.Business.dll
+C:\Users\Erick Wendel\Desktop\LGroup.MVC\LGroup.MVC.Business\bin\Debug\LGroup.MVC.Business.pdb
+C:\Users\Erick Wendel\Desktop\LGroup.MVC\LGroup.MVC.Business\bin\Debug\LGroup.MVC.DataTransferObject.dll
+C:\Users\Erick Wendel\Desktop\LGroup.MVC\LGroup.MVC.Business\bin\Debug\LGroup.MVC.DataTransferObject.pdb
+C:\Users\Erick Wendel\Desktop\LGroup.MVC\LGroup.MVC.Business\obj\Debug\LGroup.MVC.Business.csprojResolveAssemblyReference.cache
+C:\Users\Erick Wendel\Desktop\LGroup.MVC\LGroup.MVC.Business\obj\Debug\LGroup.MVC.Business.dll
+C:\Users\Erick Wendel\Desktop\LGroup.MVC\LGroup.MVC.Business\obj\Debug\LGroup.MVC.Business.pdb
