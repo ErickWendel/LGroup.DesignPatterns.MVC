@@ -4,18 +4,19 @@ using LGroup.MVC.Business;
 using System.Web.Mvc;
 using FastMapper;
 using System.Collections.Generic;
+using LGroup.MVC.Business.Base;
 
 namespace LGroup.MVC.Presentation.Controllers
 {
     public sealed class AmigoController : Controller
     {
         //VIEW -> CONTROLLER -> BUSINESS -> DAL (DAO)
-        private readonly AmigoBusiness _negocio;
+        private readonly IBaseBusiness<AmigoDTO> _negocio;
 
 
         //Aplicamos o padrao IoC, a classe AmigoBusiness
         //Vai vir inicializada de fora
-        public AmigoController(AmigoBusiness negocio_)
+        public AmigoController(IBaseBusiness<AmigoDTO> negocio_)
         {
             _negocio = negocio_;
 

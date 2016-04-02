@@ -76,3 +76,10 @@ E:\Projetos\LGroup\Padrões de Projetos\LGroup.MVC\LGroup.MVC.Presentation\obj\D
 \\vmware-host\Shared Folders\Desktop\DESIGN PATTERNS\LGroup.MVC\LGroup.MVC.Presentation\bin\LGroup.MVC.DataAccessLayer.dll
 \\vmware-host\Shared Folders\Desktop\DESIGN PATTERNS\LGroup.MVC\LGroup.MVC.Presentation\bin\FizzWare.NBuilder.dll
 \\vmware-host\Shared Folders\Desktop\DESIGN PATTERNS\LGroup.MVC\LGroup.MVC.Presentation\bin\LGroup.MVC.DataAccessLayer.pdb
+\\vmware-host\Shared Folders\Desktop\DESIGN PATTERNS\LGroup.MVC\LGroup.MVC.Presentation\bin\Ninject.dll
+\\vmware-host\Shared Folders\Desktop\DESIGN PATTERNS\LGroup.MVC\LGroup.MVC.Presentation\bin\Ninject.Web.Common.dll
+\\vmware-host\Shared Folders\Desktop\DESIGN PATTERNS\LGroup.MVC\LGroup.MVC.Presentation\bin\Ninject.Web.Mvc.dll
+\\vmware-host\Shared Folders\Desktop\DESIGN PATTERNS\LGroup.MVC\LGroup.MVC.Presentation\bin\WebActivatorEx.dll
+\\vmware-host\Shared Folders\Desktop\DESIGN PATTERNS\LGroup.MVC\LGroup.MVC.Presentation\bin\Ninject.xml
+\\vmware-host\Shared Folders\Desktop\DESIGN PATTERNS\LGroup.MVC\LGroup.MVC.Presentation\bin\Ninject.Web.Common.xml
+\\vmware-host\Shared Folders\Desktop\DESIGN PATTERNS\LGroup.MVC\LGroup.MVC.Presentation\bin\Ninject.Web.Mvc.xml

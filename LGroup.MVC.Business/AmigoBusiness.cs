@@ -24,8 +24,8 @@ namespace LGroup.MVC.Business
 {
     public sealed class AmigoBusiness : Base.IBaseBusiness<AmigoDTO>
     {
-        private readonly AmigoDAO _dados;
-        public AmigoBusiness(AmigoDAO dados_)
+        private readonly IBaseDAO<AmigoDTO> _dados;
+        public AmigoBusiness(IBaseDAO<AmigoDTO> dados_)
         {
             _dados = dados_;
         }
