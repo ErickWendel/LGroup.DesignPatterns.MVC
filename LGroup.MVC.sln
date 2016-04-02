@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LGroup.MVC.Business", "LGro
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LGroup.MVC.DataTransferObject", "LGroup.MVC.DataTransferObject\LGroup.MVC.DataTransferObject.csproj", "{F62E9F5F-2642-4E34-B4B8-F6706304D853}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LGroup.MVC.DataAccessLayer", "LGroup.MVC.DataAccessLayer\LGroup.MVC.DataAccessLayer.csproj", "{CF609FC1-1FC1-4E38-B8E2-DF0AC60B23E0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{F62E9F5F-2642-4E34-B4B8-F6706304D853}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F62E9F5F-2642-4E34-B4B8-F6706304D853}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F62E9F5F-2642-4E34-B4B8-F6706304D853}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF609FC1-1FC1-4E38-B8E2-DF0AC60B23E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF609FC1-1FC1-4E38-B8E2-DF0AC60B23E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF609FC1-1FC1-4E38-B8E2-DF0AC60B23E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF609FC1-1FC1-4E38-B8E2-DF0AC60B23E0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

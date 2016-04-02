@@ -5,3 +5,13 @@ C:\Users\Erick Wendel\Desktop\LGroup.MVC\LGroup.MVC.Business\bin\Debug\LGroup.MV
 C:\Users\Erick Wendel\Desktop\LGroup.MVC\LGroup.MVC.Business\obj\Debug\LGroup.MVC.Business.csprojResolveAssemblyReference.cache
 C:\Users\Erick Wendel\Desktop\LGroup.MVC\LGroup.MVC.Business\obj\Debug\LGroup.MVC.Business.dll
 C:\Users\Erick Wendel\Desktop\LGroup.MVC\LGroup.MVC.Business\obj\Debug\LGroup.MVC.Business.pdb
+\\vmware-host\Shared Folders\Desktop\DESIGN PATTERNS\LGroup.MVC\LGroup.MVC.Business\bin\Debug\LGroup.MVC.Business.dll
+\\vmware-host\Shared Folders\Desktop\DESIGN PATTERNS\LGroup.MVC\LGroup.MVC.Business\bin\Debug\LGroup.MVC.Business.pdb
+\\vmware-host\Shared Folders\Desktop\DESIGN PATTERNS\LGroup.MVC\LGroup.MVC.Business\bin\Debug\LGroup.MVC.DataAccessLayer.dll
+\\vmware-host\Shared Folders\Desktop\DESIGN PATTERNS\LGroup.MVC\LGroup.MVC.Business\bin\Debug\LGroup.MVC.DataTransferObject.dll
+\\vmware-host\Shared Folders\Desktop\DESIGN PATTERNS\LGroup.MVC\LGroup.MVC.Business\bin\Debug\FizzWare.NBuilder.dll
+\\vmware-host\Shared Folders\Desktop\DESIGN PATTERNS\LGroup.MVC\LGroup.MVC.Business\bin\Debug\LGroup.MVC.DataAccessLayer.pdb
+\\vmware-host\Shared Folders\Desktop\DESIGN PATTERNS\LGroup.MVC\LGroup.MVC.Business\bin\Debug\LGroup.MVC.DataTransferObject.pdb
+\\vmware-host\Shared Folders\Desktop\DESIGN PATTERNS\LGroup.MVC\LGroup.MVC.Business\obj\Debug\LGroup.MVC.Business.csprojResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\Desktop\DESIGN PATTERNS\LGroup.MVC\LGroup.MVC.Business\obj\Debug\LGroup.MVC.Business.dll
+\\vmware-host\Shared Folders\Desktop\DESIGN PATTERNS\LGroup.MVC\LGroup.MVC.Business\obj\Debug\LGroup.MVC.Business.pdb

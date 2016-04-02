@@ -1,0 +1,8 @@
+\\vmware-host\Shared Folders\Desktop\DESIGN PATTERNS\LGroup.MVC\LGroup.MVC.DataAccessLayer\obj\Debug\LGroup.MVC.DataAccessLayer.csprojResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\Desktop\DESIGN PATTERNS\LGroup.MVC\LGroup.MVC.DataAccessLayer\bin\Debug\LGroup.MVC.DataAccessLayer.dll
+\\vmware-host\Shared Folders\Desktop\DESIGN PATTERNS\LGroup.MVC\LGroup.MVC.DataAccessLayer\bin\Debug\LGroup.MVC.DataAccessLayer.pdb
+\\vmware-host\Shared Folders\Desktop\DESIGN PATTERNS\LGroup.MVC\LGroup.MVC.DataAccessLayer\bin\Debug\FizzWare.NBuilder.dll
+\\vmware-host\Shared Folders\Desktop\DESIGN PATTERNS\LGroup.MVC\LGroup.MVC.DataAccessLayer\bin\Debug\LGroup.MVC.DataTransferObject.dll
+\\vmware-host\Shared Folders\Desktop\DESIGN PATTERNS\LGroup.MVC\LGroup.MVC.DataAccessLayer\bin\Debug\LGroup.MVC.DataTransferObject.pdb
+\\vmware-host\Shared Folders\Desktop\DESIGN PATTERNS\LGroup.MVC\LGroup.MVC.DataAccessLayer\obj\Debug\LGroup.MVC.DataAccessLayer.dll
+\\vmware-host\Shared Folders\Desktop\DESIGN PATTERNS\LGroup.MVC\LGroup.MVC.DataAccessLayer\obj\Debug\LGroup.MVC.DataAccessLayer.pdb

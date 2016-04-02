@@ -1,14 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
 namespace LGroup.MVC.Business.Base
 {
-    public interface IBaseBusiness<TDTO>
+    public interface IBaseBusiness<T>
     {
-        void Cadastrar(TDTO registro_);
-        IEnumerable<TDTO> Listar();
+        void Cadastrar(T registro_);
+        IEnumerable<T> Listar();
     }
 }

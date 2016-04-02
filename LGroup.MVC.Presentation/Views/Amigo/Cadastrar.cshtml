@@ -1,32 +1,34 @@
-﻿@model LGroup.MVC.Presentation.ViewModels.AmigoViewModel
-
+﻿@model LGroup.MVC.Presentation.ViewModel.AmigoViewModel
 @{
-    ViewBag.Title = "Cadastrar";
+    Layout = null;
 }
+<!DOCTYPE html>
 
-<h2>Cadastrar</h2>
-@using (Html.BeginForm())
-{
-    <div>
-
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Cadastrar</title>
+</head>
+<body>
+    @using (Html.BeginForm())
+    {
         <div>
-
-            @Html.LabelFor(m => m.Nome)
-            @Html.TextBoxFor(m => m.Nome)
+            <div>
+                @Html.LabelFor(x => x.Nome)
+                @Html.TextBoxFor(x => x.Nome)
+            </div>
+            <div>
+                @Html.LabelFor(x => x.Email)
+                @Html.TextBoxFor(x => x.Email)
+            </div>
+            <div>
+                @Html.LabelFor(x => x.Telefone)
+                @Html.TextBoxFor(x => x.Telefone)
+            </div>
+            <div>
+                <input type="submit" name="salvar" id="salvar" value="Salvar" />
+            </div>
         </div>
-        <div>
-
-            @Html.LabelFor(m => m.Email)
-            @Html.TextBoxFor(m => m.Email)
-        </div>
-        <div>
-            @Html.LabelFor(m => m.Telefone)
-            @Html.TextBoxFor(m => m.Telefone)
-        </div>
-
-        <div>
-            <input type="submit" id="salvar" name="salvar" value="Salvar" />
-        </div>
-    </div>
-
-}
+    }
+</body>
+</html>

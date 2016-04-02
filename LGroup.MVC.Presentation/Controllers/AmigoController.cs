@@ -1,34 +1,49 @@
-﻿using LGroup.MVC.Presentation.ViewModels;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+﻿using LGroup.MVC.Presentation.ViewModel;
+using LGroup.MVC.DataTransferObject;
+using LGroup.MVC.Business;
 using System.Web.Mvc;
-
-
-//Padrao MVC
-//Existe desde 1979 SMALL TALK (XEROX)
+using FastMapper;
+using System.Collections.Generic;
 
 namespace LGroup.MVC.Presentation.Controllers
 {
-    public class AmigoController : Controller
+    public sealed class AmigoController : Controller
     {
+        //VIEW -> CONTROLLER -> BUSINESS -> DAL (DAO)
+        private readonly AmigoBusiness _negocio;
+
+
+        //Aplicamos o padrao IoC, a classe AmigoBusiness
+        //Vai vir inicializada de fora
+        public AmigoController(AmigoBusiness negocio_)
+        {
+            _negocio = negocio_;
+
+        }
+        //MAPEAMENTO DE CLASSES (AUTOMAPPER, VALUE INJECT, FAST MAPPER)
+        //A MAIS RÁPIDO E MENOS CONHECIDA É FASTMAPPER
         [HttpGet]
         public ViewResult Listar()
         {
-            return View();
+            var amigosLista = _negocio.Listar();
+            var amigoTela = TypeAdapter.Adapt<IEnumerable<AmigoDTO>, IEnumerable<AmigoViewModel>>(amigosLista);
+
+            return View(amigoTela);
         }
 
+        [HttpGet]
         public ViewResult Cadastrar()
         {
             return View();
         }
 
         [HttpPost]
-        public RedirectToRouteResult Cadastrar(AmigoViewModel dadosTela_)
+        public RedirectToRouteResult Cadastrar(AmigoViewModel dadosTela)
         {
+            var dadosTabela = TypeAdapter.Adapt<AmigoViewModel, AmigoDTO>(dadosTela);
+            _negocio.Cadastrar(dadosTabela);
 
-            return RedirectToAction("Listar" );
+            return RedirectToAction("Listar");
         }
     }
 }

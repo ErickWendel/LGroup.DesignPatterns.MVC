@@ -1,20 +1,36 @@
-﻿
+﻿@* Fizemos o model binding para pegar os dados do Ctrl *@
+@model IEnumerable<LGroup.MVC.Presentation.ViewModel.AmigoViewModel>
 @{
-    ViewBag.Title = "Listar";
+    Layout = null;
 }
 
-<h2>Listar</h2>
+<!DOCTYPE html>
 
-<table class="table">
-    <tr>
-        <td>Codigo</td>
-        <td>Nome</td>
-        <td>Email</td>
-    </tr>
-    <tr>
-        <td>1</td>
-        <td>Erick</td>
-        <td>E@e.com</td>
-    </tr>
-
-</table>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Listar</title>
+</head>
+<body>
+    <div> 
+        <table>
+            <tr>
+                <td>Código</td>
+                <td>Nome</td>
+                <td>E-mail</td>
+                <td>Telefone</td>
+            </tr>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Codigo</td>
+                    <td>@item.Nome</td>
+                    <td>@item.Email</td>
+                    <td>@item.Telefone</td>
+                </tr>
+            }
+            
+        </table>
+    </div>
+</body>
+</html>

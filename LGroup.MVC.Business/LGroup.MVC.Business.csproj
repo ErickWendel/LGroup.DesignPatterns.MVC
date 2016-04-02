@@ -45,6 +45,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\LGroup.MVC.DataAccessLayer\LGroup.MVC.DataAccessLayer.csproj">
+      <Project>{cf609fc1-1fc1-4e38-b8e2-df0ac60b23e0}</Project>
+      <Name>LGroup.MVC.DataAccessLayer</Name>
+    </ProjectReference>
     <ProjectReference Include="..\LGroup.MVC.DataTransferObject\LGroup.MVC.DataTransferObject.csproj">
       <Project>{f62e9f5f-2642-4e34-b4b8-f6706304d853}</Project>
       <Name>LGroup.MVC.DataTransferObject</Name>
